@@ -13,18 +13,15 @@
         <tag>HEAD</tag>
     </scm>
 
-    <!-- Deploy releases and snapshots to the CloudBees maven repositories -->
     <distributionManagement>
-        <downloadUrl>http://repository-bubblecloud.forge.cloudbees.com/snapshot/</downloadUrl>
         <repository>
-            <id>bubblecloud-cloudbees-release</id>
-            <name>bubblecloud-cloudbees-release</name>
-            <url>dav:https://repository-bubblecloud.forge.cloudbees.com/release/</url>
+            <id>${release.repository.id}</id>
+            <url>${release.repository.url}</url>
         </repository>
         <snapshotRepository>
-            <id>bubblecloud-cloudbees-snapshot</id>
-            <name>bubblecloud-cloudbees-snapshot</name>
-            <url>dav:https://repository-bubblecloud.forge.cloudbees.com/snapshot/</url>
+            <id>${snapshot.repository.id}</id>
+            <url>${snapshot.repository.url}</url>
+            <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
 
