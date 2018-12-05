@@ -3,13 +3,13 @@
 
     <groupId>org.vaadin.addons.lazyquerycontainer</groupId>
     <artifactId>vaadin-lazyquerycontainer-root</artifactId>
-    <version>8.0.0.1-SNAPSHOT</version>
+    <version>8.0.0.SEE1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
-        <url>https://github.com/tlaukkan/vaadin-lazyquerycontainer.git</url>
-        <connection>scm:git:git://github.com:tlaukkan/vaadin-lazyquerycontainer.git</connection>
-        <developerConnection>scm:git:git@github.com:tlaukkan/vaadin-lazyquerycontainer.git</developerConnection>
+        <url>https://github.com/seeburger-ag/vaadin-lazyquerycontainer.git</url>
+        <connection>scm:git:git://github.com:seeburger-ag/vaadin-lazyquerycontainer.git</connection>
+        <developerConnection>scm:git:git@github.com:seeburger-ag/vaadin-lazyquerycontainer.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
