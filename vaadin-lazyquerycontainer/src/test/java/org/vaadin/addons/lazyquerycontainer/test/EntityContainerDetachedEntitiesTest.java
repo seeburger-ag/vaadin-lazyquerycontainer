@@ -189,7 +189,7 @@ public class EntityContainerDetachedEntitiesTest {
                 "test-company", betaItem.getItemProperty("author.company.name").getValue());
 
         taskBeta.setAuthor(null);
-        entityManager.persist(taskBeta);
+        entityManager.persist(entityManager.merge(taskBeta));
         entityContainer.refresh();
 
         final Item betaItemAfterAuthorClear = entityContainer.getItem(entityContainer.getIdByIndex(0));
